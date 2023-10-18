@@ -1,0 +1,26 @@
+# README para Prueba Postulación
+
+Pequeño sistema de votación, guardando los datos del formulario en una base de datos.
+
+## Versiones
+
+phpMyAdmin SQL Dump 5.0.2
+MariaDB 10.4.11
+PHP Version 7.4.4
+XAMPP Control Panel Version 3.2.4.
+Apache 2.4.41
+Editor de codigo: Visual Studio Code 1.83.1
+
+## Instalacion del proyecto
+Para iniciar el proyecto debemos abrir XAMPP Control Panel, en donde debemos poner "start" en los modulos "Apache" y "MySQL"
+
+Y ahora debemos buscar la carpeta "htdocs" en la ruta de instalación de XAMPP e insertar la carpeta "Prueba", ejemplo: C:\xampp\htdocs\Prueba (Esto puede variar dependiendo del sistema operativo)
+
+Luego nos dirigimos al enlace http://localhost/phpmyadmin/ y en la opcion SQL insertamos el codigo del archivo "voto.sql"
+
+Por ultimo vamos a http://localhost/Prueba/ y probamos el proyecto. Para comprobar que la base de datos haya guardado los datos, debemos volver al enlace http://localhost/phpmyadmin/ y buscamos el esquema "voto" y luego la tabla "votos"
+
+## Contacto
+
+cristian0@hotmail.cl
++56971660994
